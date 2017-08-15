@@ -43,7 +43,7 @@
 // mdelay
 #include <linux/delay.h>
 
-#include "analysis_helpers.h"
+#include "simple_helpers.h"
 
 struct myy_driver_private_data;
 
