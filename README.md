@@ -1,4 +1,14 @@
-Random dummy driver tests.
+WARNING
+-------
+
+** !! DO NOT USE THIS DRIVER IF YOU CAN'T READ THE CODE !! **
+
+About
+-----
+
+A test driver to enable or disable the right GPIO pins of Bluetooth
+chips, using the RFKill system, in order to use them with BlueZ
+afterwards.
 
 Preparation
 -----------
