@@ -33,3 +33,15 @@ Clean
 
 `make clean`
 
+DTS node configuration
+----------------------
+
+```dts
+	wireless-bluetooth {
+		compatible = "myy,bt_gpio_rfkill";
+		bluetooth-power-gpios   = <&gpio4 19 GPIO_ACTIVE_HIGH>;
+		bluetooth-reset-gpios   = <&gpio4 29 GPIO_ACTIVE_HIGH>;
+		bluetooth-wake-gpios    = <&gpio4 26 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+```

@@ -88,7 +88,7 @@ static const struct of_device_id myy_compatible_ids[] = {
 		 * harbour a different "compatible" property, you better append a
 		 * new structure to this array and setup the compatible member
 		 * accordingly. */
-		.compatible = "rockchip,vpu_service",
+		.compatible = "myy,bt_gpio_rfkill",
 		/* You can init a custom data structure before and set its address
 		 * to the .data member (.data = &myy_initialized_data_structure).
 		 */
