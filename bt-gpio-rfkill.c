@@ -34,15 +34,6 @@
 // of_match_ptr
 #include <linux/of.h>
 
-// of_find_device_by_node
-#include <linux/of_platform.h>
-
-// iommu_present
-#include <linux/iommu.h>
-
-// dma_buf related functions
-#include <linux/dma-buf.h>
-
 // devm_gpiod related functions
 #include <linux/gpio/consumer.h>
 
